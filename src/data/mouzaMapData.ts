@@ -1,0 +1,130 @@
+export interface MapPlotItem {
+  dagNo: string;
+  khatianNo: string;
+  owner: string;
+  areaDecimal: number;
+  landClass: string;
+  points: string; // SVG polygon points
+  labelX: number;
+  labelY: number;
+  color: string;
+  status: 'MUTATED' | 'DISPUTE_FREE' | 'TAX_DUE';
+}
+
+export const SAMPLE_MOUZA_MAP = {
+  mouzaName: 'বিরুলিয়া (Birulia)',
+  jlNo: '১০২',
+  upazila: 'সাভার (Savar)',
+  district: 'ঢাকা (Dhaka)',
+  sheetNo: '০১',
+  plots: [
+    {
+      dagNo: '১২০১',
+      khatianNo: '৪৯০',
+      owner: 'মোঃ কামরুল হাসান',
+      areaDecimal: 24.5,
+      landClass: 'নাল',
+      points: '50,40 180,45 190,140 60,135',
+      labelX: 110,
+      labelY: 90,
+      color: '#10b981',
+      status: 'DISPUTE_FREE',
+    },
+    {
+      dagNo: '১২০২',
+      khatianNo: '৪৯৫',
+      owner: 'মোঃ এনামুল হক',
+      areaDecimal: 18.0,
+      landClass: 'ভিটি / বাড়ি',
+      points: '190,45 320,40 330,145 200,140',
+      labelX: 250,
+      labelY: 90,
+      color: '#06b6d4',
+      status: 'MUTATED',
+    },
+    {
+      dagNo: '১২০৩',
+      khatianNo: '৫০১',
+      owner: 'বেগম রাজিয়া সুলতানা',
+      areaDecimal: 32.0,
+      landClass: 'পুকুর',
+      points: '330,40 460,50 450,150 340,145',
+      labelX: 390,
+      labelY: 95,
+      color: '#3b82f6',
+      status: 'DISPUTE_FREE',
+    },
+    {
+      dagNo: '১২০৪',
+      khatianNo: '৫০৩',
+      owner: 'আব্দুস সোবহান খাঁ',
+      areaDecimal: 14.2,
+      landClass: 'ধানী',
+      points: '60,145 200,150 190,260 50,250',
+      labelX: 120,
+      labelY: 200,
+      color: '#10b981',
+      status: 'TAX_DUE',
+    },
+    {
+      dagNo: '১২০৫',
+      khatianNo: '৫০৪',
+      owner: 'মোঃ তারিকুল ইসলাম বাবুল',
+      areaDecimal: 45.0,
+      landClass: 'নাল / ধানী',
+      points: '210,150 330,155 320,270 200,260',
+      labelX: 260,
+      labelY: 205,
+      color: '#eab308',
+      status: 'MUTATED',
+    },
+    {
+      dagNo: '১২০৬',
+      khatianNo: '৫০৪',
+      owner: 'সুলতানা রাজিয়া',
+      areaDecimal: 15.0,
+      landClass: 'বাগান',
+      points: '340,155 470,160 460,270 330,265',
+      labelX: 400,
+      labelY: 210,
+      color: '#84cc16',
+      status: 'DISPUTE_FREE',
+    },
+    {
+      dagNo: '১২০৭',
+      khatianNo: '৫১০',
+      owner: 'ফারুক আহমেদ',
+      areaDecimal: 28.4,
+      landClass: 'আবাসিক',
+      points: '50,260 210,270 200,380 40,370',
+      labelX: 120,
+      labelY: 320,
+      color: '#f97316',
+      status: 'DISPUTE_FREE',
+    },
+    {
+      dagNo: '১২০৮',
+      khatianNo: '৫১৫',
+      owner: 'শরীফুল ইসলাম',
+      areaDecimal: 22.0,
+      landClass: 'বাণিজ্যিক গোডাউন',
+      points: '220,270 340,280 330,390 210,380',
+      labelX: 270,
+      labelY: 330,
+      color: '#ec4899',
+      status: 'MUTATED',
+    },
+    {
+      dagNo: '১২০৯',
+      khatianNo: '৫২০',
+      owner: 'নুরজাহান বেগম',
+      areaDecimal: 35.8,
+      landClass: 'পুকুরপাড় বাগান',
+      points: '350,280 480,285 470,395 340,390',
+      labelX: 410,
+      labelY: 335,
+      color: '#8b5cf6',
+      status: 'TAX_DUE',
+    },
+  ] as MapPlotItem[],
+};

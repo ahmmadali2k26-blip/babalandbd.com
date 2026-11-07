@@ -1,0 +1,685 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "name": "Admin",
+      "phone": "Admin",
+      "email": "admin@babalandbd.com",
+      "fatherOrMotherName": "সিস্টেম অ্যাডমিনিস্ট্রেশন",
+      "address": "ঢাকা সদর দপ্তর",
+      "salt": "36ae7bf035ea4b37fef1d308559fbee2",
+      "passwordHash": "228d8782a96826e4cedecd92088c5bc25a6f81ae1d40da5a83ce78d8f27225c5b44f4d4b7bf5f18eb587098d62a12c92934618c6705d380e0ea383d7e85f3f94",
+      "role": "admin",
+      "walletBalance": 50000,
+      "status": "ACTIVE",
+      "passwordMustChange": true,
+      "createdAt": "2026-11-07T05:44:36.840Z"
+    },
+    {
+      "id": "usr_demo_01",
+      "name": "মোঃ তারিকুল ইসলাম (উদ্যোক্তা)",
+      "phone": "01700000000",
+      "email": "demo@babalandbd.com",
+      "salt": "5528038aeb557911168240ba3aa2dbf3",
+      "passwordHash": "f4674ae67eb4c633d7fc4a5450e37a1b55fecf0ad843012a5cb274460ee2cdd68a0a3e5a367c575501f1cda38a2b3e4e8f762c94a0a583cbbc58c87d7e1f3e42",
+      "role": "entrepreneur",
+      "walletBalance": 1250,
+      "createdAt": "2026-11-07T04:57:05.958Z",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "usr_g_1794028794119",
+      "name": "স্মার্ট নাগরিক (গুগল ভেরিফাইড)",
+      "phone": "01760606049",
+      "email": "citizen@babalandbd.com",
+      "salt": "6d5865836721ca1c84fd23626758eb75",
+      "passwordHash": "e0f24bde14c35524d181af087ccd68c9236b4d1cd35d07bcb5b22483920f45b2ed058681e41f91be4ce6a550d54943c74600808658bcfbdc04f3529de2479f33",
+      "role": "citizen",
+      "walletBalance": 900,
+      "createdAt": "2026-11-07T05:19:54.129Z",
+      "status": "ACTIVE"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "e4f70ccb7f3e43b89dc5910d17c27025348fbaf324e98e48b3a1a5eea2043046",
+      "userId": "usr_demo_01",
+      "expiresAt": 1794632270233
+    },
+    {
+      "token": "516b62de4b7dec09f8d520a93fd18b1fef3f5e5f63dacd23433f259d6f534294",
+      "userId": "usr_admin_01",
+      "expiresAt": 1794635087758
+    }
+  ],
+  "khatians": [
+    {
+      "id": "kh-dhaka-1042",
+      "khatianNo": "১০৪২",
+      "surveyType": "BS",
+      "division": "ঢাকা (Dhaka)",
+      "district": "ঢাকা (Dhaka)",
+      "upazila": "ধানমন্ডি (Dhanmondi)",
+      "mouza": "ধানমন্ডি আবাসিক (Dhanmondi Residential)",
+      "jlNo": "১২",
+      "toujiNo": "৩৪৮/ক",
+      "pargana": "বাওয়ালী",
+      "owners": [
+        {
+          "name": "মোঃ আফজাল হোসেন",
+          "fatherOrSpouse": "পিতা: মৃত আব্দুল করিম",
+          "share": "০.৫০০০",
+          "nidLast4": "৮৪২৯"
+        },
+        {
+          "name": "মোসাম্মৎ পারভীন আক্তার",
+          "fatherOrSpouse": "স্বামী: মোঃ আফজাল হোসেন",
+          "share": "০.৫০০০",
+          "nidLast4": "১৯৩১"
+        }
+      ],
+      "plots": [
+        {
+          "dagNo": "৩১৮",
+          "landClass": "বাস্তু / আবাসিক",
+          "totalAreaAcre": 0.12,
+          "totalAreaDecimal": 12,
+          "shareAreaDecimal": 12,
+          "annualTax": 120
+        },
+        {
+          "dagNo": "৩২০",
+          "landClass": "পুকুর / জলাশয়",
+          "totalAreaAcre": 0.05,
+          "totalAreaDecimal": 5,
+          "shareAreaDecimal": 5,
+          "annualTax": 50
+        }
+      ],
+      "totalLandDecimal": 17,
+      "totalAnnualTax": 170,
+      "kistibandi": "বৈশাখ ও কার্তিক কিস্তিতে প্রদেয়",
+      "issueDate": "২০২৩-০৮-১৫",
+      "qrCodeData": "https://babalandbd.com/verify?id=kh-dhaka-1042&hash=sha256_8f912c9a",
+      "isCertifiedAvailable": true,
+      "certifiedFee": 50
+    },
+    {
+      "id": "kh-dhaka-2105",
+      "khatianNo": "২১০৫",
+      "surveyType": "RS",
+      "division": "ঢাকা (Dhaka)",
+      "district": "ঢাকা (Dhaka)",
+      "upazila": "মিরপুর (Mirpur)",
+      "mouza": "সেনপাড়া পর্বতা (Senpara Parbata)",
+      "jlNo": "০৬",
+      "toujiNo": "১২০/খ",
+      "owners": [
+        {
+          "name": "আব্দুর রহিম শেখ",
+          "fatherOrSpouse": "পিতা: হাবিবুর রহমান শেখ",
+          "share": "১.০০০০",
+          "nidLast4": "৭৭২1"
+        }
+      ],
+      "plots": [
+        {
+          "dagNo": "৫০৪",
+          "landClass": "ভিটি / বাণিজ্যিক",
+          "totalAreaAcre": 0.08,
+          "totalAreaDecimal": 8.5,
+          "shareAreaDecimal": 8.5,
+          "annualTax": 250
+        }
+      ],
+      "totalLandDecimal": 8.5,
+      "totalAnnualTax": 250,
+      "kistibandi": "এককালীন পরিশোধযোগ্য",
+      "issueDate": "২০২২-১১-২০",
+      "qrCodeData": "https://babalandbd.com/verify?id=kh-dhaka-2105&hash=sha256_bb931d",
+      "isCertifiedAvailable": true,
+      "certifiedFee": 50
+    },
+    {
+      "id": "kh-savar-504",
+      "khatianNo": "৫০৪",
+      "surveyType": "BS",
+      "division": "ঢাকা (Dhaka)",
+      "district": "ঢাকা (Dhaka)",
+      "upazila": "সাভার (Savar)",
+      "mouza": "বিরুলিয়া (Birulia)",
+      "jlNo": "১০২",
+      "toujiNo": "৭৭২",
+      "owners": [
+        {
+          "name": "মোঃ তারিকুল ইসলাম বাবুল",
+          "fatherOrSpouse": "পিতা: মোস্তাফিজুর রহমান",
+          "share": "০.৭৫০০",
+          "nidLast4": "৪৪০৯"
+        },
+        {
+          "name": "সুলতানা রাজিয়া",
+          "fatherOrSpouse": "পিতা: মোস্তাফিজুর রহমান",
+          "share": "০.২৫০০",
+          "nidLast4": "৬৭২০"
+        }
+      ],
+      "plots": [
+        {
+          "dagNo": "১২০৫",
+          "landClass": "নাল / ধানী",
+          "totalAreaAcre": 0.45,
+          "totalAreaDecimal": 45,
+          "shareAreaDecimal": 45,
+          "annualTax": 90
+        },
+        {
+          "dagNo": "১২০৬",
+          "landClass": "বাগান",
+          "totalAreaAcre": 0.15,
+          "totalAreaDecimal": 15,
+          "shareAreaDecimal": 15,
+          "annualTax": 45
+        }
+      ],
+      "totalLandDecimal": 60,
+      "totalAnnualTax": 135,
+      "kistibandi": "প্রতি বছর চৈত্র মাসের মধ্যে পরিশোধযোগ্য",
+      "issueDate": "২০২৪-০৩-১০",
+      "qrCodeData": "https://babalandbd.com/verify?id=kh-savar-504&hash=sha256_e81c0",
+      "isCertifiedAvailable": true,
+      "certifiedFee": 50
+    },
+    {
+      "id": "kh-ctg-312",
+      "khatianNo": "৩১২",
+      "surveyType": "CS",
+      "division": "চট্টগ্রাম (Chattogram)",
+      "district": "চট্টগ্রাম (Chattogram)",
+      "upazila": "পাঁচলাইশ (Panchlaish)",
+      "mouza": "নাসিরাবাদ (Nasirabad)",
+      "jlNo": "২২",
+      "toujiNo": "৪১৫",
+      "owners": [
+        {
+          "name": "চৌধুরী সামসুল আলম",
+          "fatherOrSpouse": "পিতা: মরহুম বখতিয়ার খাঁ",
+          "share": "১.০০০০",
+          "nidLast4": "১১২০"
+        }
+      ],
+      "plots": [
+        {
+          "dagNo": "৮৯",
+          "landClass": "পাকা বাড়ি",
+          "totalAreaAcre": 0.18,
+          "totalAreaDecimal": 18.25,
+          "shareAreaDecimal": 18.25,
+          "annualTax": 450
+        }
+      ],
+      "totalLandDecimal": 18.25,
+      "totalAnnualTax": 450,
+      "kistibandi": "বাৎসরিক কিস্তিতে প্রদেয়",
+      "issueDate": "২০২১-০৫-১৪",
+      "qrCodeData": "https://babalandbd.com/verify?id=kh-ctg-312&hash=sha256_7781a",
+      "isCertifiedAvailable": true,
+      "certifiedFee": 50
+    },
+    {
+      "id": "kh-raj-88",
+      "khatianNo": "৮৮",
+      "surveyType": "SA",
+      "division": "রাজশাহী (Rajshahi)",
+      "district": "রাজশাহী (Rajshahi)",
+      "upazila": "বোয়ালিয়া (Boalia)",
+      "mouza": "হেতেম খাঁ (Hetem Kha)",
+      "jlNo": "০৪",
+      "toujiNo": "১০৩",
+      "owners": [
+        {
+          "name": "প্রফেসর ড. মাহমুদুর রহমান",
+          "fatherOrSpouse": "পিতা: কাজী নুরুল হুদা",
+          "share": "০.৫০০০",
+          "nidLast4": "৬৬৫০"
+        },
+        {
+          "name": "বেগম নাসরিন সুলতানা",
+          "fatherOrSpouse": "স্বামী: ড. মাহমুদুর রহমান",
+          "share": "০.৫০০০",
+          "nidLast4": "৩৩৯৮"
+        }
+      ],
+      "plots": [
+        {
+          "dagNo": "১৪৫",
+          "landClass": "আবাসিক ভবন",
+          "totalAreaAcre": 0.1,
+          "totalAreaDecimal": 10,
+          "shareAreaDecimal": 10,
+          "annualTax": 200
+        }
+      ],
+      "totalLandDecimal": 10,
+      "totalAnnualTax": 200,
+      "kistibandi": "ষাণ্মাসিক কিস্তি",
+      "issueDate": "২০২০-১০-০১",
+      "qrCodeData": "https://babalandbd.com/verify?id=kh-raj-88&hash=sha256_aa129",
+      "isCertifiedAvailable": true,
+      "certifiedFee": 50
+    }
+  ],
+  "mutations": [
+    {
+      "id": "mut_1794029259570",
+      "applicationNo": "MUT-2026-9605",
+      "applicantName": "মো: আরিফুল ইসলাম",
+      "applicantPhone": "01755667788",
+      "applicantNid": "19901234567890123",
+      "division": "ঢাকা বিভাগ",
+      "district": "টাঙ্গাইল জেলা",
+      "upazila": "মধুপুর উপজেলা",
+      "mouza": "মধুপুর সদর",
+      "jlNo": "০১",
+      "deedNo": "৪৫২১/২০২৬",
+      "deedDate": "2026-11-07",
+      "formerKhatianNo": "৭৭২",
+      "proposedDagNo": "৪৫০",
+      "proposedAreaDecimal": 10.5,
+      "submissionDate": "2026-11-07",
+      "status": "SUBMITTED",
+      "dcrFeePaid": false,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "title": "অনলাইন আবেদন গ্রহণ",
+          "description": "আবেদনপত্র সিস্টেমে সফলভাবে গৃহীত হয়েছে। ট্র্যাকিং নম্বর সক্রিয়।",
+          "completed": true,
+          "date": "৭/১১/২০২৬ ৫:২৭:৩৯ AM"
+        },
+        {
+          "stageNumber": 2,
+          "title": "সহকারী কমিশনার (ভূমি) প্রাথমিক যাচাই",
+          "description": "উপজেলা ভূমি অফিসে নথিপত্র পর্যালোচনাধীন।",
+          "completed": false
+        },
+        {
+          "stageNumber": 3,
+          "title": "ইউনিয়ন ভূমি সহকারী কর্মকর্তা তদন্ত",
+          "description": "সরেজমিন সীমানা নির্ধারণ ও দখল যাচাইয়ের অপেক্ষায়।",
+          "completed": false
+        },
+        {
+          "stageNumber": 4,
+          "title": "শুনানি ও ডিসিআর (DCR) ফি",
+          "description": "শুনানির তারিখ নির্ধারণ ও নোটিশ প্রেরণ প্রক্রিয়া।",
+          "completed": false
+        },
+        {
+          "stageNumber": 5,
+          "title": "চূড়ান্ত নামজারি খতিয়ান মঞ্জুর",
+          "description": "অনুমোদন ও ডিজিটাল খতিয়ান সৃষ্টি।",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "mut-2026-9041",
+      "applicationNo": "MUT-2026-9041",
+      "applicantName": "মোঃ জামান হোসেন",
+      "applicantPhone": "01711223344",
+      "applicantNid": "19875412365478901",
+      "division": "ঢাকা (Dhaka)",
+      "district": "ঢাকা (Dhaka)",
+      "upazila": "সাভার (Savar)",
+      "mouza": "বিরুলিয়া (Birulia)",
+      "jlNo": "১০২",
+      "deedNo": "৪৫০২/২০২৬",
+      "deedDate": "২০২৬-০২-১৫",
+      "formerKhatianNo": "৫০৪",
+      "proposedDagNo": "১২০৫",
+      "proposedAreaDecimal": 15,
+      "submissionDate": "২০২৬-০৩-০১",
+      "status": "HEARING_SCHEDULED",
+      "hearingDate": "২০২৬-১১-১৫",
+      "dcrFeePaid": true,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "title": "অনলাইন আবেদন গ্রহণ",
+          "description": "আবেদন ও প্রয়োজনীয় দলিল সহকারী কমিশনার (ভূমি) দপ্তরে জমা হয়েছে।",
+          "completed": true,
+          "date": "২০২৬-০৩-০১ ১০:৩০ AM"
+        },
+        {
+          "stageNumber": 2,
+          "title": "সহকারী কমিশনার (ভূমি) প্রাথমিক যাচাই",
+          "description": "আবেদনের সকল কাগজপত্র ও সাবেক খতিয়ানের বৈধতা যাচাই সম্পন্ন হয়েছে।",
+          "completed": true,
+          "date": "২০২৬-০৩-০৪ ০২:১৫ PM"
+        },
+        {
+          "stageNumber": 3,
+          "title": "ইউনিয়ন ভূমি সহকারী কর্মকর্তা তদন্ত",
+          "description": "সরেজমিন পরিদর্শন ও দখল সংক্রান্ত প্রতিবেদন দাখিল করা হয়েছে।",
+          "completed": true,
+          "date": "২০২৬-০৩-১০ ১১:০০ AM"
+        },
+        {
+          "stageNumber": 4,
+          "title": "শুনানি ও ডিসিআর (DCR) ফি",
+          "description": "শুনানির তারিখ ধার্য: ১৫ নভেম্বর ২০২৬। ডিসিআর ফি ১,১০০/- টাকা পরিশোধিত।",
+          "completed": true,
+          "date": "২০২৬-০৩-১৮ ০৩:৪৫ PM"
+        },
+        {
+          "stageNumber": 5,
+          "title": "চূড়ান্ত নামজারি খতিয়ান মঞ্জুর",
+          "description": "শুনানি অন্তে নয়া নামজারি খতিয়ান প্রিন্ট ও অনুমোদন প্রক্রিয়াধীন।",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "mut-2026-7712",
+      "applicationNo": "MUT-2026-7712",
+      "applicantName": "রোকেয়া বেগম",
+      "applicantPhone": "01899887766",
+      "applicantNid": "19921234567890123",
+      "division": "ঢাকা (Dhaka)",
+      "district": "ঢাকা (Dhaka)",
+      "upazila": "ধানমন্ডি (Dhanmondi)",
+      "mouza": "ধানমন্ডি আবাসিক (Dhanmondi Residential)",
+      "jlNo": "১২",
+      "deedNo": "১২৮০/২০২৫",
+      "deedDate": "২০২৫-১২-১০",
+      "formerKhatianNo": "১০৪২",
+      "proposedDagNo": "৩১৮",
+      "proposedAreaDecimal": 6,
+      "submissionDate": "২০২৬-০১-১২",
+      "status": "APPROVED",
+      "dcrFeePaid": true,
+      "stages": [
+        {
+          "stageNumber": 1,
+          "title": "অনলাইন আবেদন গ্রহণ",
+          "description": "আবেদন গৃহীত ও ট্র্যাকিং নম্বর জেনারেট হয়েছে।",
+          "completed": true,
+          "date": "২০২৬-০১-১২"
+        },
+        {
+          "stageNumber": 2,
+          "title": "কাগজপত্র যাচাই",
+          "description": "উপ-রেজিস্ট্রি দলিলের তথ্যের সাথে মূল রেকর্ডের মিল পাওয়া গেছে।",
+          "completed": true,
+          "date": "২০২৬-০১-১৬"
+        },
+        {
+          "stageNumber": 3,
+          "title": "তদন্ত প্রতিবেদন দাখিল",
+          "description": "দখলকারী হিসেবে আবেদনকারীর দখল প্রমাণিত।",
+          "completed": true,
+          "date": "২০২৬-০১-২২"
+        },
+        {
+          "stageNumber": 4,
+          "title": "শুনানি ও অনুমোদন",
+          "description": "সহকারী কমিশনার (ভূমি) কর্তৃক আবেদন অনুমোদিত।",
+          "completed": true,
+          "date": "২০২৬-০১-৩০"
+        },
+        {
+          "stageNumber": 5,
+          "title": "অনলাইন খতিয়ান প্রদান",
+          "description": "খতিয়ান নং ৯৮২০ অনুমোদন সাপেক্ষে সক্রিয় হয়েছে। ডাউনলোড প্রস্তুত।",
+          "completed": true,
+          "date": "২০২৬-০২-০২"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1794028536734_h6v2",
+      "userId": "guest_single",
+      "orderType": "khatian_certified_copy",
+      "title": "BS খতিয়ান নং ১০৪২ (মৌজা: ধানমন্ডি আবাসিক (Dhanmondi Residential))",
+      "referenceNo": "CERT-536734",
+      "amount": 2,
+      "status": "COMPLETED",
+      "createdAt": "2026-11-07T05:15:36.734Z",
+      "downloadUrl": "/api/khatian/download/kh-dhaka-1042"
+    },
+    {
+      "id": "ord_1794028508697_4dl5",
+      "userId": "guest_single",
+      "orderType": "khatian_certified_copy",
+      "title": "BS খতিয়ান নং ১০৪২ (মৌজা: ধানমন্ডি আবাসিক (Dhanmondi Residential))",
+      "referenceNo": "CERT-508697",
+      "amount": 50,
+      "status": "COMPLETED",
+      "createdAt": "2026-11-07T05:15:08.697Z",
+      "downloadUrl": "/api/khatian/download/kh-dhaka-1042"
+    },
+    {
+      "id": "ord_1794027642548",
+      "userId": "guest",
+      "orderType": "ld_tax",
+      "title": "ভূমি উন্নয়ন কর দাখিলা (হোল্ডিং-৪১৮/খ)",
+      "referenceNo": "DAK-2026-344599",
+      "amount": 15,
+      "status": "COMPLETED",
+      "createdAt": "2026-11-07T05:00:42.548Z"
+    },
+    {
+      "id": "ord_1794027635013",
+      "userId": "guest",
+      "orderType": "ld_tax",
+      "title": "ভূমি উন্নয়ন কর দাখিলা (হোল্ডিং-৪১৮/খ)",
+      "referenceNo": "DAK-2026-760107",
+      "amount": 15,
+      "status": "COMPLETED",
+      "createdAt": "2026-11-07T05:00:35.013Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1794030287758_q9kg9",
+      "timestamp": "2026-11-07T05:44:47.758Z",
+      "action": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "status": "SUCCESS",
+      "details": "লগইন সফল: Admin (admin)"
+    },
+    {
+      "id": "log_1794029259590_6lr45",
+      "timestamp": "2026-11-07T05:27:39.590Z",
+      "action": "MUTATION_SUBMIT",
+      "ip": "127.0.0.1",
+      "userAgent": "node",
+      "status": "SUCCESS",
+      "details": "নতুন নামজারি আবেদন: MUT-2026-9605"
+    },
+    {
+      "id": "log_1794028855672_gd07l",
+      "timestamp": "2026-11-07T05:20:55.672Z",
+      "action": "WALLET_RECHARGE",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "ওয়ালেট রিচার্জ: +৳200 (bKash)"
+    },
+    {
+      "id": "log_1794028847917_jjvqk",
+      "timestamp": "2026-11-07T05:20:47.917Z",
+      "action": "WALLET_RECHARGE",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "ওয়ালেট রিচার্জ: +৳200 (bKash)"
+    },
+    {
+      "id": "log_1794028844641_tbuun",
+      "timestamp": "2026-11-07T05:20:44.641Z",
+      "action": "WALLET_RECHARGE",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "ওয়ালেট রিচার্জ: +৳200 (bKash)"
+    },
+    {
+      "id": "log_1794028794129_0yvmf",
+      "timestamp": "2026-11-07T05:19:54.129Z",
+      "action": "GOOGLE_LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "গুগল অথেন্টিকেশন সফল: citizen@babalandbd.com"
+    },
+    {
+      "id": "log_1794028536734_k73kw",
+      "timestamp": "2026-11-07T05:15:36.734Z",
+      "action": "CERTIFIED_COPY_ORDER",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "status": "SUCCESS",
+      "details": "খতিয়ান অর্ডার সম্পন্ন: ১০৪২"
+    },
+    {
+      "id": "log_1794028508698_1tvym",
+      "timestamp": "2026-11-07T05:15:08.698Z",
+      "action": "CERTIFIED_COPY_ORDER",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "status": "SUCCESS",
+      "details": "খতিয়ান অর্ডার সম্পন্ন: ১০৪২"
+    },
+    {
+      "id": "log_1794027642549_d421k",
+      "timestamp": "2026-11-07T05:00:42.549Z",
+      "action": "TAX_PAYMENT",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "কর পরিশোধ: ৳15 (দাখিলা: DAK-2026-344599)"
+    },
+    {
+      "id": "log_1794027635014_vfo4t",
+      "timestamp": "2026-11-07T05:00:35.014Z",
+      "action": "TAX_PAYMENT",
+      "ip": "127.0.0.1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 OPR/139.0.0.0",
+      "status": "SUCCESS",
+      "details": "কর পরিশোধ: ৳15 (দাখিলা: DAK-2026-760107)"
+    },
+    {
+      "id": "log_1794027470233_atxt3",
+      "timestamp": "2026-11-07T04:57:50.233Z",
+      "action": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "status": "SUCCESS",
+      "details": "লগইন সফল: 01700000000"
+    },
+    {
+      "id": "log_init",
+      "timestamp": "2026-11-07T04:57:05.959Z",
+      "action": "DATABASE_INITIALIZED",
+      "ip": "127.0.0.1",
+      "userAgent": "System Bootstrapper",
+      "status": "SUCCESS",
+      "details": "High-speed encrypted in-memory database mounted with AES/PBKDF2."
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1794029259589",
+      "type": "mutation_update",
+      "title": "ই-নামজারি আবেদন সফলভাবে গৃহীত",
+      "message": "আপনার ই-নামজারি আবেদন নং MUT-2026-9605 সফলভাবে গৃহীত হয়েছে। উপজেলা সহকারী কমিশনার (ভূমি) দপ্তরে যাচাইকরণ চলমান।",
+      "timestamp": "2026-11-07T05:27:39.589Z",
+      "read": false,
+      "referenceId": "MUT-2026-9605",
+      "actionTab": "mutation",
+      "priority": "high"
+    },
+    {
+      "id": "notif_1794028536734",
+      "type": "khatian_order",
+      "title": "খতিয়ান অর্ডার সফল ও প্রস্তুত",
+      "message": "BS খতিয়ান নং ১০৪২ (মৌজা: ধানমন্ডি আবাসিক (Dhanmondi Residential)) এর সার্টিফাইড ডিজিটাল কপি ইস্যু হয়েছে এবং ভল্টে সংরক্ষিত।",
+      "timestamp": "2026-11-07T05:15:36.734Z",
+      "read": true,
+      "referenceId": "CERT-536734",
+      "actionTab": "orders",
+      "priority": "normal"
+    },
+    {
+      "id": "notif_1794028508697",
+      "type": "khatian_order",
+      "title": "খতিয়ান অর্ডার সফল ও প্রস্তুত",
+      "message": "BS খতিয়ান নং ১০৪২ (মৌজা: ধানমন্ডি আবাসিক (Dhanmondi Residential)) এর সার্টিফাইড ডিজিটাল কপি ইস্যু হয়েছে এবং ভল্টে সংরক্ষিত।",
+      "timestamp": "2026-11-07T05:15:08.697Z",
+      "read": true,
+      "referenceId": "CERT-508697",
+      "actionTab": "orders",
+      "priority": "normal"
+    },
+    {
+      "id": "notif_1794027739810",
+      "type": "mutation_update",
+      "title": "নামজারি শুনানির নোটিশ জারি",
+      "message": "আবেদন নং MUT-2026-9041 এর ইউনিয়ন ভূমি সহকারী কর্মকর্তার সরেজমিন তদন্ত প্রতিবেদন দাখিল হয়েছে। আগামী সপ্তাহে শুনানির নোটিশ জারি করা হয়েছে।",
+      "timestamp": "2026-11-07T05:02:19.810Z",
+      "read": false,
+      "referenceId": "MUT-2026-9041",
+      "actionTab": "mutation",
+      "priority": "high"
+    },
+    {
+      "id": "notif_1",
+      "type": "mutation_update",
+      "title": "ই-নামজারি শুনানির নোটিশ ধার্য",
+      "message": "আপনার আবেদন MUT-2026-9041 এর শুনানির তারিখ আগামী ১৫ নভেম্বর ২০২৬ নির্ধারিত হয়েছে। শুনানিতে প্রয়োজনীয় মূল দলিলসহ উপস্থিত থাকার অনুরোধ করা হলো।",
+      "timestamp": "2026-11-07T04:37:08.621Z",
+      "read": true,
+      "referenceId": "MUT-2026-9041",
+      "actionTab": "mutation",
+      "priority": "high"
+    },
+    {
+      "id": "notif_2",
+      "type": "khatian_order",
+      "title": "খতিয়ান সার্টিফাইড কপি প্রস্তুত",
+      "message": "বিএস খতিয়ান ১০৪২ (মৌজা: ধানমন্ডি আবাসিক, জেএল: ১২) এর সার্টিফাইড অনলাইন কপি ডিজিটাল সিলসহ ইস্যু হয়েছে। এখনই ডাউনলোড বা প্রিন্ট করুন।",
+      "timestamp": "2026-11-07T02:02:08.621Z",
+      "read": false,
+      "referenceId": "CERT-1042",
+      "actionTab": "orders",
+      "priority": "normal"
+    },
+    {
+      "id": "notif_3",
+      "type": "tax_dakhila",
+      "title": "ভূমি উন্নয়ন কর পরিশোধ সম্পন্ন",
+      "message": "হোল্ডিং-৪১৮/খ এর ভূমি উন্নয়ন কর দাখিলা DAK-2026-918237 সিস্টেমে সংরক্ষিত হয়েছে।",
+      "timestamp": "2026-11-06T05:02:08.621Z",
+      "read": true,
+      "referenceId": "DAK-2026-918237",
+      "actionTab": "tax",
+      "priority": "normal"
+    }
+  ],
+  "payments": [],
+  "pricing": {
+    "singleKhatian": 2,
+    "mouzaVolume": 350,
+    "mapsDrive": 100,
+    "urgentSla": 150,
+    "mutationCourtFee": 20,
+    "mutationNoticeFee": 50,
+    "mutationRecordFee": 1000
+  },
+  "applications": []
+}
